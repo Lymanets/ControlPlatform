@@ -6,6 +6,7 @@
 #include <QList>
 
 #include "qconndisconn.h"
+#include "graphics.h"
 
 namespace Ui {
 class MainWindow;
@@ -24,10 +25,14 @@ private:
     QConnDisconn *connDisconn;
     QTimer *timer;
 
+
     QString testConnDisconn;
+    QVector <int> dateX;
+    QVector <int> dateY;
 private slots:
     void portConnDiconn();
     void slotScanPort();
+    void slotEnableGraphics();
 };
 
 #endif // MAINWINDOW_H
