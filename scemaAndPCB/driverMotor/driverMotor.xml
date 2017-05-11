@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/mrlymanets/Disk/kicad_pro/driverMotor.sch</source>
+    <date>Ср 29 мар 2017 00:08:48</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>driverMotor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>L293D</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="motor_drivers" part="L293D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DAC39A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L293D</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="motor_drivers" part="L293D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DAC481</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DADB64</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DADC01</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DADCA5</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DADD06</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DADDB3</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DADE46</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_01X02</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DAEC62</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L293D</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="motor_drivers" part="L293D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DAC422</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DB36B2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DB4800</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DB4922</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DB49A0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="motor_drivers" part="L293">
+      <aliases>
+        <alias>L293D</alias>
+      </aliases>
+      <description>Quadruple Half-H Drivers</description>
+      <docs>http://www.ti.com/lit/ds/symlink/l293.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L293</field>
+        <field name="Footprint">Housings_DIP:DIP-16_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1,2" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="2A" type="input"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+        <pin num="9" name="EN3,4" type="input"/>
+        <pin num="10" name="3A" type="input"/>
+        <pin num="11" name="3A" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="4Y" type="output"/>
+        <pin num="15" name="4A" type="input"/>
+        <pin num="16" name="VCC1" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="motor_drivers">
+      <uri>/usr/share/kicad/library/motor_drivers.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="U22Y">
+      <node ref="J10" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="2" name="U12Y">
+      <node ref="J9" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="3" name="U13Y">
+      <node ref="U1" pin="11"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="4" name="U14Y">
+      <node ref="U1" pin="14"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="5" name="U21Y">
+      <node ref="U3" pin="3"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="6" name="U23Y">
+      <node ref="J10" pin="3"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="7" name="U24Y">
+      <node ref="J10" pin="4"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="8" name="U31Y">
+      <node ref="J11" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="9" name="U12A">
+      <node ref="U1" pin="7"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="10" name="U23A">
+      <node ref="J3" pin="3"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="11" name="U22A">
+      <node ref="J3" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="12" name="U21A">
+      <node ref="J3" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="13" name="U14A">
+      <node ref="U1" pin="15"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="14" name="U13A">
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="15" name="U32Y">
+      <node ref="J11" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="16" name="U11A">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="17" name="U11Y">
+      <node ref="J9" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="U31A">
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="19" name="U34A">
+      <node ref="J4" pin="4"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="20" name="U33A">
+      <node ref="U2" pin="10"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="21" name="U24A">
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="22" name="U33Y">
+      <node ref="J11" pin="3"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="23" name="U34Y">
+      <node ref="J11" pin="4"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="24" name="Net-(J6-Pad3)">
+      <node ref="J8" pin="1"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="25" name="U3EN">
+      <node ref="J8" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="26" name="U1EN">
+      <node ref="U1" pin="9"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="27" name="U2EN">
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="28" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="30" name="VCC">
+      <node ref="U3" pin="16"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="16"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="31" name="U32A">
+      <node ref="U2" pin="7"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="12"/>
+    </net>
+  </nets>
+</export>
